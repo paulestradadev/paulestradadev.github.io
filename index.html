@@ -5,26 +5,47 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Paul Estrada - Java Developer</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Paul Estrada Lara</h1>
-        <p>Java Software Developer</p>
-        
-        <audio id="audio1" src="media/UUAUUUWEEE.mp3" preload="auto" style="display: none;"></audio>
-        
-        <p>
-            yes this should be my web portfolio but i'm still learning and this is a free IA development so stop stressing me out :D
-        </p>
+        <header>
+            <nav>
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#portfolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </header>
 
-        <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/SuQ7aLf90QM"
-        title="omg hell na wtf man"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+        <main>
+            <section id="inicio">
+                <h1>Paul Estrada Lara</h1>
+                <p>Java Software Developer</p>
+            </section>
 
-        <p> Now press this</p>
-        <button id="button1">Press me</button>
+            <section id="sobre-mi">
+                <audio id="audio1" src="media/UUAUUUWEEE.mp3" preload="auto" style="display: none;"></audio>
+                <p>
+                    yes this should be my web portfolio but i'm still learning and this is a free IA development so stop stressing me out :D
+                </p>
+            </section>
+
+            <section id="portfolio">
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/SuQ7aLf90QM"
+                    title="omg hell na wtf man"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </section>
+
+            <section id="contacto">
+                <p>Now press this</p>
+                <button id="button1">Press me</button>
+            </section>
+        </main>
+
         <script src="js/main.js"></script>
     </body>
 </html>
